@@ -1,5 +1,5 @@
 How to make a simple GUI
-====
+---
 ```JAVA
 import javax.swing.JOptionPane;
 
@@ -19,7 +19,8 @@ public class main {
 ```
 
 About ArrayList
----Java
+---
+```Java
 import java.util.ArrayList;
 
 public class main {
@@ -33,13 +34,13 @@ public class main {
 		System.out.println(food);
 		food.add(1, "Pork");			// add at index
 		System.out.println(food);
-		food.remove(0);					// remove
+		food.remove(0);				// remove
 		System.out.println(food);
 		food.set(0, "Noodle");			// replace
 		System.out.println(food);
-		food.trimToSize();				// delete extra storage
+		food.trimToSize();			// delete extra storage
 		System.out.println(food);
-		food.clear();					// clear all
+		food.clear();				// clear all
 		System.out.println(food);
 	}
 }
