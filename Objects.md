@@ -57,3 +57,16 @@ generate a new file with `file->new class`
  ## The `static` keyword:
  Like a global varialble in a class which every member from this class keep the same variable together.
 
+## String can add with int and fenerate new Strings.
+e.g.
+```java
+ String s1 = "0"
+ for(int i = 0; i < 10; i ++)
+ {
+   s1 += i;
+   System.out.println(s1);
+ }
+```
+
+This will print out 00-00123456789. 10 numbers in a sum.
+
