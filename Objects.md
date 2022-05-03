@@ -50,5 +50,10 @@ BufferedReader -> chars into entire lines of text.
 ## About first program in Java.
 generate a new file with `file->new class`
 
+ ## The `final` keyword:
+ Kind of like `static` in C++.
+ If an object was declared as final, it can never change the pointer ot remote any other objects even they are in the same class.
  
+ ## The `static` keyword:
+ Like a global varialble in a class which every member from this class keep the same variable together.
 
