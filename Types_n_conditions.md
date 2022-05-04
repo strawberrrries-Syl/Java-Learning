@@ -44,7 +44,11 @@ A method declared to return a non-void type.
 ## Getters and Setters
 
 ## For int and String convert
-```Integer.parseInt("1986");```
+```java
+Integer.parseInt("1986");                   // String to int
+double d = 42.5;
+String doubleString = Double.toString(d);   // Double to String
+```
 
 ## wrapping
 When you need to treat aprimitive like an object. Especially using mashmap or arraylist
@@ -54,3 +58,9 @@ Integer iWrap = new Integer(i);   // wrapping
 int unWarpped = iWrap.intValue(); // unWrapping
 ```
 
+## Formating
+```java
+
+%[argument number][flags][width][.precision] type
+
+```
