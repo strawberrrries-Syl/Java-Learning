@@ -56,6 +56,9 @@ generate a new file with `file->new class`
  
  ## The `static` keyword:
  Like a global varialble in a class which every member from this class keep the same variable together.
+ 
+ *Static method cannot use non-static values.*
+ *Static method cannot use non-static methods either.*
 
 ## String can add with int and fenerate new Strings.
 e.g.
