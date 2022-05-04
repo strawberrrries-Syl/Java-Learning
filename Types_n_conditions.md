@@ -40,3 +40,17 @@ can not represent by intergers. Only `true` or `false`.
 
 ## function in Java
 A method declared to return a non-void type.
+
+## Getters and Setters
+
+## For int and String convert
+```Integer.parseInt("1986");```
+
+## wrapping
+When you need to treat aprimitive like an object. Especially using mashmap or arraylist
+```java
+int i = 288;
+Integer iWrap = new Integer(i);   // wrapping
+int unWarpped = iWrap.intValue(); // unWrapping
+```
+
