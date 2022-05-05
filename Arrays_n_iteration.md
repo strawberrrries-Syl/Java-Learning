@@ -45,3 +45,9 @@ public final stati int FEBRUARY = 2;  // just like define
 ```
 
 For any array x, `x.length` is a "final" field. Cannot be changed.
+
+`final varialble`: means you can't chage its **value**.
+
+`final method`: means you can't override the **method**.
+
+`final class`: means you can't extend the class(can't make a subclass)
