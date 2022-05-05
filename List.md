@@ -44,6 +44,8 @@ l3.next = null;
 ```
 
 **Advantages:**
-inserting item int middle of linked list takes constant time if you have reference to previous node.
-moreover, list can keep growing until memory runs out.
+* inserting item int middle of linked list takes constant time if you have reference to previous node.
+* moreover, list can keep growing until memory runs out.
+**Disadvantages:**
+* FInding the nth item of a likned list takes time proportional to n -> length of list.
 
