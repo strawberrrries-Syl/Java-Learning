@@ -49,3 +49,28 @@ l3.next = null;
 **Disadvantages:**
 * FInding the nth item of a likned list takes time proportional to n -> length of list.
 
+# List of Objects
+Reference any object by declaring a ref of type Object.
+```java
+public class SListNnode {
+  public Object item;
+  public SListNode next;
+}
+
+public class SList {
+  private SListNode head;
+  rivate int size;
+  
+  public SList() {
+    head = null;
+    size = 0;
+  }
+}
+```
+A List Class
+2 problems with only using SListNodes.
+1. Hard to insert from top
+2. How do you represent on empty List
+  You CANNOT just point the x -> null.
+  *Solution* separate SList class maintains head of list. --> using SList.
+
