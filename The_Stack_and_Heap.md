@@ -36,6 +36,16 @@ Search a sorted array. for value "FindMe". return index or FAILURE.
  *When changing middle, remember to add 1.
 
 How fast? n...n/2...n/4...n/8..1?
-Takes
+
+Takes log2n recrsive bsearch calls.
+
+There are enough stack space for a few thousands of stack frames **ONLY**.
+
+# Scope & recursion (Shadowed?)
+
+Scope of a variable: portion of program that can access the variable.
+1. Class variables: in scope everywhere in the class, except when 
+
+
 
 
