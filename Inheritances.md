@@ -45,9 +45,12 @@ public void inserFront(Object obj) {
 
 # Dynamic method lookup
 Every TailList is an SList.
+```java
 SList s = new TailList(); // fine
 TailList t = new SList(); // Compiletime-error
-
+```
 Static type: the type of a variable     -->  SList
 Dynamic type: the class of the object the variable references.        --> TailList
+
+When we invoke overridden method, Java calls method for the object `dynamic type`, regardless of `static type`. ->Dynamic method look up
 
