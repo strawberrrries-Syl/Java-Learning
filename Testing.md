@@ -80,7 +80,8 @@ assert (x == 3) ;
 assert (list.size == list.countLength());
 ```
 
-**Turn assertion on: "java -ea"//Turn them off: "java -da" (code is fast).**
+**Turn assertion on: `java -ea`//Turn them off: `java -da` (code is fast).**
+In command line
 
 ## Regression Testing
 Regression test: test suite that can be re-run when changes are made.
