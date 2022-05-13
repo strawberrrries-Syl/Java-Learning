@@ -1,8 +1,15 @@
-# Stack and the Heap
+# Stack and the Heap --> Where things live
 The heap stores all objects, including arrays, and all class variables.
 
-The stack strores all local variables, including parameters.
+The stack strores all local variables and methods, including parameters.
+```
+methods()  |   Objects
+           |
+stack      |   Heap
+```
+*Instance Variables:* in heap. declared inside a `class` but not inside a method.
 
+*Local Variables:* in stack. declared inside a `method`, including method parameters. Temporary and live only as long as the method is on the stack.
 
 * When a method is called, Java creates a stack frame (aka activation record) stores the parameters & local variables.
 
@@ -47,5 +54,6 @@ Scope of a variable: portion of program that can access the variable.
 1. Class variables: in scope everywhere in the class, except when 
 
 
-
+# Life and Death of an Object
+**The Garbage Cpllector(gc)**
 
