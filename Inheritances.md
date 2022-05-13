@@ -29,3 +29,25 @@ public TailList(int x) {
   tail = null;
 }
 ```
+
+# Invoking overriden methods
+```java
+public void inserFront(Object obj) {
+  super.insertFront(obj);   // <-- You don't need to make sure this line is the first line of the method
+  if(size == 1) {
+    tail = head;
+  }
+}
+```
+
+`Protected` field/method is visible to declaring class & all its subclasses.
+`Private` fields aren't visible to subclasses.
+
+# Dynamic method lookup
+Every TailList is an SList.
+SList s = new TailList(); // fine
+TailList t = new SList(); // Compiletime-error
+
+Static type: the type of a variable     -->  SList
+Dynamic type: the class of the object the variable references.        --> TailList
+
