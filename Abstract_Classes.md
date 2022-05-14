@@ -58,3 +58,9 @@ You can use this method on:
 `interfaces` = public method prototype & behaviors;
 
 `Java interfaces` = "interface" keyword
+
+Java interface is like abstract class; 2 differences.
+1. A class can inherit from only one class, but can "implement" (inherit from) as many Java interfaces as you like.
+2. A Java interface cannot:
+* implement any methods,
+* include any fields except "static final" constants. Only contains method prototypes & constants.
