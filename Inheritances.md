@@ -1,4 +1,4 @@
-# Inheritance
+# Inheritance. (Polymorphism)
 ```java
 public class TailList extends SList{
   /* head and size inherited from SList. */
@@ -26,6 +26,7 @@ public TailList() {
 // to change:
 public TailList(int x) {
   super(x);     // must be first statement in constructor
+  // or this();
   tail = null;
 }
 ```
@@ -54,3 +55,11 @@ Dynamic type: the class of the object the variable references.        --> TailLi
 
 When we invoke overridden method, Java calls method for the object `dynamic type`, regardless of `static type`. ->Dynamic method look up
 
+# IS_A and HAS_A test
+* xxa is a xxb --> xxa extand to xxb
+* xxb has a xxa --> xxa is a field of xxb
+
+**Important:** 
+1. Inheritance lets you guarantee that all classes gourped under a certain supertype have all the methods that the supertype has.
+2. Final class cannot be overrided.
+3. Overriden is not the same as Overloaded
