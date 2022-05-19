@@ -57,6 +57,8 @@ You can use this method on:
 # Java Interfaces
 `interfaces` = public method prototype & behaviors;
 
+Methods in interfaces will be the type of "public abstract". 
+
 `Java interfaces` = "interface" keyword
 
 Java interface is like abstract class; 2 differences.
