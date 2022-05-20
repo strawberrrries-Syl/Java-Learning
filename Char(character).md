@@ -17,7 +17,7 @@ You can construct a Character object:
 ```java
 Character ch = new Character(`a`);
 ```
-# methods:
+# 2. methods:
 
 ```java
 isLetter();
