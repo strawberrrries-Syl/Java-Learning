@@ -1,4 +1,5 @@
-# 1. Constructor    (String的值是不可以改变的 String is immutable)
+# 1. Constructor    
+(String is immutable)
 ## 1.1 basic
 ```java
 String str = "hello";
@@ -74,7 +75,10 @@ int lastIndexOf(String str, int fromIndex);
 
 int length();
 
-void setCharAt(int )
+void setCharAt(int index, char ch);
+// 返回新的String， 包含此序列当前所伴晗的字符子序列。
+String substring(int start, int end);
+
 ```
 
 
