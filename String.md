@@ -62,6 +62,20 @@ contains(CharSequence chars);
 // 9. 判断是否为空
 isEmpty();
 ```
+# 6. StringBuffer & StringBuilder
+Mutable. Always using StringBuilder (faster). But StringBuilder is not safe in multithread.
+*无需提前确定容量* 
+`sbf.append("...")`, `sbf.insert(pos, str)`, `sbf.delete(5,8)`->delete the calue at 5 and 8.
+```java
+int capacity();
+
+int indexOf(String str, int fromIndex);
+int lastIndexOf(String str, int fromIndex);
+
+int length();
+
+void setCharAt(int )
+```
 
 
 
