@@ -53,3 +53,35 @@ For any array x, `x.length` is a "final" field. Cannot be changed.
 `final method`: means you can't override the **method**.
 
 `final class`: means you can't extend the class(can't make a subclass)
+
+
+# for loop
+You can write the code like:
+```java
+for(statement : expression)
+{
+  //...
+}
+
+// like below:
+for(int x : numbers) {
+  System.out.print( x );  
+}
+```
+
+# if-else 
+Same as rules in C++.
+
+# switch
+Same as rules in C++.
+```java
+switch(expression) {
+  case value :
+  break;
+  case value :
+  break;
+  ...
+  default:
+  break;
+}
+```
