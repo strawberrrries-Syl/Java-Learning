@@ -11,7 +11,7 @@ Vector(Collection c);   // Vector that include c
 ```
  # 2. methods
  ```java
-  add(index, Object element);
+  add(index, Object element); // as .push_back() in c++
  
  	boolean addAll(Collection c) 
   // 将指定 Collection 中的所有元素添加到此向量的末尾，按照指定 collection 的迭代器所返回的顺序添加这些元素。
