@@ -1,4 +1,6 @@
-# Automatic array construction
+# Automatic
+
+## 1. Construction
 
 ```java
 int[][] table = new int[x][y];
