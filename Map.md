@@ -40,3 +40,32 @@ for(Integer i : Sites.keySet()) {
   Syste.out.println(Sites.get(i));
 }
 ```
+
+# 9. HashSet
+## 9.1 constructor
+```java
+HashSet();
+
+HashSet(int initialCapacity); // init number of hashset
+```
+
+## 9.2 Mainly used APIs
+```java
+HashSet set = new HashSet();
+
+boolean set.add(Object);  // add objects
+boolean set.contains(Object object);  // whether contains
+boolean set.isEmpty();  // whether is empty
+boolean set.remove(Object object);
+int set.size(); // size of set
+```
+
+## 9.3 iteration
+```java
+// 1. iterator
+for(Iterator iterator = set.iterator(); iterator.hasNext();) {
+  iterator.next();
+}
+
+
+```

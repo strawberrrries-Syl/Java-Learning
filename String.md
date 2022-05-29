@@ -76,8 +76,18 @@ int lastIndexOf(String str, int fromIndex);
 int length();
 
 void setCharAt(int index, char ch);
-// 返回新的String， 包含此序列当前所伴晗的字符子序列。
+// 返回新的String， 包含此序列当前所包含的字符子序列。
 String substring(int start, int end);
+
+```
+
+# 7. String and StringBuilder convert
+```java
+String s = new String("assdfdgagds");
+
+StringBuilder newstring = new StringBuilder(s);
+
+String sconvert = newstring.to_String();
 
 ```
 
