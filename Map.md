@@ -17,6 +17,8 @@ Sites.put(key, value);
 # 4. get value
 ```java
 Sites.get(key);
+
+Sites.containsKey();  // whether contains the key
 ```
 
 # 5. remove
