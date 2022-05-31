@@ -62,6 +62,11 @@ String trim();
 contains(CharSequence chars);
 // 9. 判断是否为空
 isEmpty();
+
+// 10. 如果想判断是否包含子字符串， 可以用indexOf()
+// 是子字符串时，返回值>0
+// 处理String相关问题时，永远先判断是否是子字符串
+
 ```
 # 6. StringBuffer & StringBuilder
 Mutable. Always using StringBuilder (faster). But StringBuilder is not safe in multithread.

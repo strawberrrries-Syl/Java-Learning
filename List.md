@@ -17,6 +17,9 @@ Object get(int index);
 
 Object set(int index, Object, obj);
 
+// 翻转
+ void Collections.reverse(List l);
+
 ```
 
 # Iteration
