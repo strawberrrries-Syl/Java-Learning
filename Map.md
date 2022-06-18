@@ -40,6 +40,19 @@ Sites.size();
 ```java
 for(Integer i : Sites.keySet()) {
   Syste.out.println(Sites.get(i));
+  
+}
+
+//or
+for(Iterator iter = idmap.entrySet().iterator(); iter.hasNext();)
+{
+  iter.getKey();
+  iter.getValue();
+}
+
+for(Map.Entry<String, String> entry:map.entrySet()) {
+  entry.getKey();
+  entry.getValue();
 }
 ```
 
@@ -68,6 +81,6 @@ int set.size(); // size of set
 for(Iterator iterator = set.iterator(); iterator.hasNext();) {
   iterator.next();
 }
-
-
 ```
+
+

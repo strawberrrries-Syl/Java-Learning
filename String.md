@@ -95,7 +95,16 @@ StringBuilder newstring = new StringBuilder(s);
 String sconvert = newstring.to_String();
 
 ```
+# 8. String 的自身排序（单个String的元素排序）
+```java
+String s = ",lkdsfjsa";
 
+Char[] cStr = s.toCharArray();    //string to char[]
+
+Arrays.sort(cStr);
+
+String newS = new String(sCtr);   // char[] to string
+```
 
 
 

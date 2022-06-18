@@ -55,6 +55,27 @@ Comparator cmp = new myComparator();
 Array.sort(a, cmp);
 ```
 
+# String List
+```java
+String[] strArray = new Srtring[];  //这是数组形式
+// 可以用C++索引形式遍历
+
+List<String> list = new ArrayList<String>();
+
+// 下面两种都需要是List才可以
+// 1.
+for(String str : list)
+{
+
+}
+// 2. 
+for(Iterator i = list.iterator(); i.hasNext();)
+{
+
+}
+
+```
+
 
 # About length
 
