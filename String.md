@@ -59,9 +59,13 @@ String toUpperCase();
 // 7. 返回copy，忽略前导空白和后导空白
 String trim();
 // 8. 判断是否包含制定的字符系列
-contains(CharSequence chars);
+contains(CharSequence chars);   
+
+contains(String s);
 // 9. 判断是否为空
 isEmpty();
+
+str1.compareTo(str2);  // 字典顺序比较，str1小，负数，str1大，正数
 
 // 10. 如果想判断是否包含子字符串， 可以用indexOf()
 // 是子字符串时，返回值>0
