@@ -69,6 +69,10 @@ isEmpty();
 
 ```
 # 6. StringBuffer & StringBuilder
+**`StringBuffer` 安全， `StringBuilder`快**
+
+**两个都可以单独改变string中的某个位置的char-->`setCharAt(index, char)`**
+
 Mutable. Always using StringBuilder (faster). But StringBuilder is not safe in multithread.
 *无需提前确定容量* 
 `sbf.append("...")`, `sbf.insert(pos, str)`, `sbf.delete(5,8)`->delete the calue at 5 and 8.
@@ -92,7 +96,7 @@ String s = new String("assdfdgagds");
 
 StringBuilder newstring = new StringBuilder(s);
 
-String sconvert = newstring.to_String();
+String sconvert = newstring.toString();
 
 ```
 # 8. String 的自身排序（单个String的元素排序）

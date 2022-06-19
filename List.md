@@ -55,6 +55,11 @@ Comparator cmp = new myComparator();
 Array.sort(a, cmp);
 ```
 
+
+```java
+ Collections.sort(dictionary, (a, b) -> b.length() - a.length());       // sort by size
+```
+
 # String List
 ```java
 String[] strArray = new Srtring[];  //这是数组形式

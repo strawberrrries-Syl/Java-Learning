@@ -62,6 +62,8 @@ for(Map.Entry<String, String> entry:map.entrySet()) {
 HashSet();
 
 HashSet(int initialCapacity); // init number of hashset
+
+HashSet<Character> vowels = new HashSet<Character>( Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')); // inti a set with multiple values in one time.
 ```
 
 ## 9.2 Mainly used APIs
