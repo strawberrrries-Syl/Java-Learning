@@ -7,13 +7,22 @@ int[][] table = new int[x][y];
 // create an array of x references to array.
 
 ```
-# Initializers:
+# 2. Initializers:
 ```java
 Human[] b = {kayla, rishi, new Human("Paolo")};
 int[][] c = {{7,3,2}, {x}, {8,5,6,0}, {y+z,3}}; // feasible in initializers, not in assignment.
 int[] a,b,c;        // all reference arrays.
 int a[], b, c[][];  //a is 1d, b is not array, c is 2d
 ```
+# 3. copy
+```java
+int[] ans = Arrays.copyOf(nums, nums.length);
+// nums->原数组，nums.length->复制长度
+```
+
+# 4. List<String>[]
+一种数组，数组中装的是List，链表可以链接任何结构。
+
 # Do-loop
 "do" loop always executes loop body at least once
 *Important*
