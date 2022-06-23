@@ -44,7 +44,7 @@ char charAt(int index);
 boolean contentEquals(StringBuffer sb);
 // 3. 返回指定字符在此字符串中 第一次/最后一次 出现处的索引。
   int indexOf(int ch);    	int lastIndexOf(int ch);
-  // 返回在此字符串中第一次出现指定字符处的索引，从指定的索引开始搜索。
+  // 返回在此字符串中第一次出现指定字符处的索引，从指定的索引开始搜索。找不到返回-1
   int indexOf(int ch, int fromIndex);
   // 返回指定子字符串在此字符串中第一次出现处的索引。
   int indexOf(String str);
