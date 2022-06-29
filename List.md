@@ -20,6 +20,11 @@ Object set(int index, Object, obj);
 // 翻转
  void Collections.reverse(List l);
 
+ // copy
+
+  Collections.copy(destination, sorce);
+
+
 ```
 
 # Iteration
