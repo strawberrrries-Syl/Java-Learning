@@ -83,6 +83,12 @@ int set.size(); // size of set
 for(Iterator iterator = set.iterator(); iterator.hasNext();) {
   iterator.next();
 }
+
+// or
+for(int k : hashset)
+{
+  ...
+}
 ```
 
 
