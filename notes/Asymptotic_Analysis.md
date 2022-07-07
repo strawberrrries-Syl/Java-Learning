@@ -1,4 +1,4 @@
-# Big-O notation(bounds)
+# Big-O notation(bounds) （$O(n)$）
 Let n be size of programs `input`.
 Let T(n) ne function. e.g. running time
 Let f(n) be another function. 
@@ -39,6 +39,15 @@ C O(n^n)
 * n^7 or slower time considered useless.
 
 * Logorithms -> `换底公式` 等与log相关的知识
+
+# $\Omega(f(n))$
+$\Omega(f(n))$ is the set of all functions that satisfy: There exist positive constants d&N such that, for all n >= N, T(n) >= d f(n).
+下限boundary.  Lower Bound on a function.
+
+# $\Theta(f(n))$
+既是上限也是下限。（常数可能不同）
+
+ 
 
 
 
