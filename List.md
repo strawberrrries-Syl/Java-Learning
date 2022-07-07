@@ -17,6 +17,11 @@ Object get(int index);
 
 Object set(int index, Object, obj);
 
+Object remove(int index);
+
+// for List<List<Integer>> ans;
+ans.add(new ArrayList<>(nowL));
+
 // 翻转
  void Collections.reverse(List l);
 
