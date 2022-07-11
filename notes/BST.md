@@ -31,4 +31,4 @@ Return null if k not in tree;
 
 * If n has no children, detach if from parent.
 * If n has one child, move n's child up to take n's place.
-* If n has two children. Let X be node in n's right subtree with the smallest key.
+* If n has two children. Let X be node in n's right subtree with the smallest key. remove X - X has no left child ans is easily removed. Replace n's key with X's key.
