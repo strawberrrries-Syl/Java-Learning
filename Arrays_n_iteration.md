@@ -17,6 +17,7 @@ int a[], b, c[][];  //a is 1d, b is not array, c is 2d
 # 3. copy
 ```java
 int[] ans = Arrays.copyOf(nums, nums.length);
+int[] ans = Arrays.copyOfRange(nums, start, end);
 // nums->原数组，nums.length->复制长度
 ```
 
