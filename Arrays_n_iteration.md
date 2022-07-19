@@ -24,6 +24,10 @@ int[] ans = Arrays.copyOfRange(nums, start, end);
 
 # 4. List<String>[]
 一种数组，数组中装的是List，链表可以链接任何结构。
+```java
+List<Integer>[] map = new List[n];
+```
+
 
 # Do-loop
 "do" loop always executes loop body at least once
