@@ -13,6 +13,7 @@ Human[] b = {kayla, rishi, new Human("Paolo")};
 int[][] c = {{7,3,2}, {x}, {8,5,6,0}, {y+z,3}}; // feasible in initializers, not in assignment.
 int[] a,b,c;        // all reference arrays.
 int a[], b, c[][];  //a is 1d, b is not array, c is 2d
+Arrays.fill(a, 0);  //批量化赋值
 ```
 # 3. copy
 ```java
