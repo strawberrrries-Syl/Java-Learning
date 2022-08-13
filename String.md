@@ -114,11 +114,6 @@ Arrays.sort(cStr);
 String newS = new String(sCtr);   // char[] to string
 ```
 
-# 9. Arrays的比较
-``` java
-Arrays.equals(pCount, sCount);
-// 比较两个数组是否相等
-```
 
 
 
