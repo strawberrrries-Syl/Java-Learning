@@ -43,14 +43,9 @@ for(Integer i : Sites.keySet()) {
   
 }
 
-//or
-for(Iterator iter = idmap.entrySet().iterator(); iter.hasNext();)
-{
-  iter.getKey();
-  iter.getValue();
-}
 
-for(Map.Entry<String, String> entry:map.entrySet()) {
+// 一般用这个
+for(Map.Entry<String, String> entry : mapName.entrySet()) {
   entry.getKey();
   entry.getValue();
 }
