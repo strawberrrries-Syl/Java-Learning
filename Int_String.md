@@ -8,3 +8,13 @@ Integer.parseInt(s)
 ```java
 Integer.toString(i);
 ```
+
+# char to String
+```java
+Character.toString(char c);
+```
+
+# char to int
+```java
+(char)(int a + '0');
+```
