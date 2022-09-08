@@ -15,6 +15,15 @@ int[] a,b,c;        // all reference arrays.
 int a[], b, c[][];  //a is 1d, b is not array, c is 2d
 Arrays.fill(a, 0);  //批量化赋值
 
+// 数组也可以直接比大小
+int[] sCount = new int[26];
+int[] pCount = new int[26];
+
+if(Arrays.equals(pCount, sCount))
+{
+  ans.add(0);
+}
+
 // 如果想直接return int[]
 return new int[2]{0,0};
 ```
